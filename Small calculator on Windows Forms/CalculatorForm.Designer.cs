@@ -28,307 +28,307 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            button20 = new Button();
+            changeSign = new Button();
+            zero = new Button();
+            separator = new Button();
+            one = new Button();
+            two = new Button();
+            three = new Button();
+            four = new Button();
+            five = new Button();
+            six = new Button();
+            seven = new Button();
+            eight = new Button();
+            nine = new Button();
+            multiply = new Button();
+            minus = new Button();
+            plus = new Button();
+            equally = new Button();
+            share = new Button();
+            degree = new Button();
+            eraseEverything = new Button();
+            eraseLast = new Button();
             SuspendLayout();
             // 
-            // button1
+            // changeSign
             // 
-            button1.BackColor = Color.FromArgb(65, 65, 65);
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button1.ForeColor = Color.WhiteSmoke;
-            button1.Location = new Point(11, 389);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 60);
-            button1.TabIndex = 1;
-            button1.Text = "+/-";
-            button1.UseVisualStyleBackColor = false;
+            changeSign.BackColor = Color.FromArgb(65, 65, 65);
+            changeSign.FlatAppearance.BorderSize = 0;
+            changeSign.FlatStyle = FlatStyle.Flat;
+            changeSign.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            changeSign.ForeColor = Color.WhiteSmoke;
+            changeSign.Location = new Point(11, 389);
+            changeSign.Name = "changeSign";
+            changeSign.Size = new Size(75, 60);
+            changeSign.TabIndex = 1;
+            changeSign.Text = "+/-";
+            changeSign.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // zero
             // 
-            button2.BackColor = Color.FromArgb(65, 65, 65);
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button2.ForeColor = Color.WhiteSmoke;
-            button2.Location = new Point(93, 389);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 60);
-            button2.TabIndex = 2;
-            button2.Text = "0";
-            button2.UseVisualStyleBackColor = false;
+            zero.BackColor = Color.FromArgb(65, 65, 65);
+            zero.FlatAppearance.BorderSize = 0;
+            zero.FlatStyle = FlatStyle.Flat;
+            zero.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            zero.ForeColor = Color.WhiteSmoke;
+            zero.Location = new Point(93, 389);
+            zero.Name = "zero";
+            zero.Size = new Size(75, 60);
+            zero.TabIndex = 2;
+            zero.Text = "0";
+            zero.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // separator
             // 
-            button3.BackColor = Color.FromArgb(65, 65, 65);
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button3.ForeColor = Color.WhiteSmoke;
-            button3.Location = new Point(174, 389);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 60);
-            button3.TabIndex = 3;
-            button3.Text = ",";
-            button3.UseVisualStyleBackColor = false;
+            separator.BackColor = Color.FromArgb(65, 65, 65);
+            separator.FlatAppearance.BorderSize = 0;
+            separator.FlatStyle = FlatStyle.Flat;
+            separator.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            separator.ForeColor = Color.WhiteSmoke;
+            separator.Location = new Point(174, 389);
+            separator.Name = "separator";
+            separator.Size = new Size(75, 60);
+            separator.TabIndex = 3;
+            separator.Text = ",";
+            separator.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // one
             // 
-            button4.BackColor = Color.FromArgb(65, 65, 65);
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button4.ForeColor = Color.WhiteSmoke;
-            button4.Location = new Point(12, 323);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 60);
-            button4.TabIndex = 4;
-            button4.Text = "1";
-            button4.UseVisualStyleBackColor = false;
+            one.BackColor = Color.FromArgb(65, 65, 65);
+            one.FlatAppearance.BorderSize = 0;
+            one.FlatStyle = FlatStyle.Flat;
+            one.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            one.ForeColor = Color.WhiteSmoke;
+            one.Location = new Point(12, 323);
+            one.Name = "one";
+            one.Size = new Size(75, 60);
+            one.TabIndex = 4;
+            one.Text = "1";
+            one.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // two
             // 
-            button5.BackColor = Color.FromArgb(65, 65, 65);
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button5.ForeColor = Color.WhiteSmoke;
-            button5.Location = new Point(93, 323);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 60);
-            button5.TabIndex = 5;
-            button5.Text = "2";
-            button5.UseVisualStyleBackColor = false;
+            two.BackColor = Color.FromArgb(65, 65, 65);
+            two.FlatAppearance.BorderSize = 0;
+            two.FlatStyle = FlatStyle.Flat;
+            two.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            two.ForeColor = Color.WhiteSmoke;
+            two.Location = new Point(93, 323);
+            two.Name = "two";
+            two.Size = new Size(75, 60);
+            two.TabIndex = 5;
+            two.Text = "2";
+            two.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // three
             // 
-            button6.BackColor = Color.FromArgb(65, 65, 65);
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button6.ForeColor = Color.WhiteSmoke;
-            button6.Location = new Point(174, 323);
-            button6.Name = "button6";
-            button6.Size = new Size(75, 60);
-            button6.TabIndex = 6;
-            button6.Text = "3";
-            button6.UseVisualStyleBackColor = false;
+            three.BackColor = Color.FromArgb(65, 65, 65);
+            three.FlatAppearance.BorderSize = 0;
+            three.FlatStyle = FlatStyle.Flat;
+            three.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            three.ForeColor = Color.WhiteSmoke;
+            three.Location = new Point(174, 323);
+            three.Name = "three";
+            three.Size = new Size(75, 60);
+            three.TabIndex = 6;
+            three.Text = "3";
+            three.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // four
             // 
-            button7.BackColor = Color.FromArgb(65, 65, 65);
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button7.ForeColor = Color.WhiteSmoke;
-            button7.Location = new Point(12, 257);
-            button7.Name = "button7";
-            button7.Size = new Size(75, 60);
-            button7.TabIndex = 7;
-            button7.Text = "4";
-            button7.UseVisualStyleBackColor = false;
+            four.BackColor = Color.FromArgb(65, 65, 65);
+            four.FlatAppearance.BorderSize = 0;
+            four.FlatStyle = FlatStyle.Flat;
+            four.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            four.ForeColor = Color.WhiteSmoke;
+            four.Location = new Point(12, 257);
+            four.Name = "four";
+            four.Size = new Size(75, 60);
+            four.TabIndex = 7;
+            four.Text = "4";
+            four.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // five
             // 
-            button8.BackColor = Color.FromArgb(65, 65, 65);
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button8.ForeColor = Color.WhiteSmoke;
-            button8.Location = new Point(93, 257);
-            button8.Name = "button8";
-            button8.Size = new Size(75, 60);
-            button8.TabIndex = 8;
-            button8.Text = "5";
-            button8.UseVisualStyleBackColor = false;
+            five.BackColor = Color.FromArgb(65, 65, 65);
+            five.FlatAppearance.BorderSize = 0;
+            five.FlatStyle = FlatStyle.Flat;
+            five.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            five.ForeColor = Color.WhiteSmoke;
+            five.Location = new Point(93, 257);
+            five.Name = "five";
+            five.Size = new Size(75, 60);
+            five.TabIndex = 8;
+            five.Text = "5";
+            five.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // six
             // 
-            button9.BackColor = Color.FromArgb(65, 65, 65);
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button9.ForeColor = Color.WhiteSmoke;
-            button9.Location = new Point(174, 257);
-            button9.Name = "button9";
-            button9.Size = new Size(75, 60);
-            button9.TabIndex = 9;
-            button9.Text = "6";
-            button9.UseVisualStyleBackColor = false;
+            six.BackColor = Color.FromArgb(65, 65, 65);
+            six.FlatAppearance.BorderSize = 0;
+            six.FlatStyle = FlatStyle.Flat;
+            six.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            six.ForeColor = Color.WhiteSmoke;
+            six.Location = new Point(174, 257);
+            six.Name = "six";
+            six.Size = new Size(75, 60);
+            six.TabIndex = 9;
+            six.Text = "6";
+            six.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // seven
             // 
-            button10.BackColor = Color.FromArgb(65, 65, 65);
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button10.ForeColor = Color.WhiteSmoke;
-            button10.Location = new Point(12, 191);
-            button10.Name = "button10";
-            button10.Size = new Size(75, 60);
-            button10.TabIndex = 10;
-            button10.Text = "7";
-            button10.UseVisualStyleBackColor = false;
+            seven.BackColor = Color.FromArgb(65, 65, 65);
+            seven.FlatAppearance.BorderSize = 0;
+            seven.FlatStyle = FlatStyle.Flat;
+            seven.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            seven.ForeColor = Color.WhiteSmoke;
+            seven.Location = new Point(12, 191);
+            seven.Name = "seven";
+            seven.Size = new Size(75, 60);
+            seven.TabIndex = 10;
+            seven.Text = "7";
+            seven.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // eight
             // 
-            button11.BackColor = Color.FromArgb(65, 65, 65);
-            button11.FlatAppearance.BorderSize = 0;
-            button11.FlatStyle = FlatStyle.Flat;
-            button11.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button11.ForeColor = Color.WhiteSmoke;
-            button11.Location = new Point(93, 191);
-            button11.Name = "button11";
-            button11.Size = new Size(75, 60);
-            button11.TabIndex = 11;
-            button11.Text = "8";
-            button11.UseVisualStyleBackColor = false;
+            eight.BackColor = Color.FromArgb(65, 65, 65);
+            eight.FlatAppearance.BorderSize = 0;
+            eight.FlatStyle = FlatStyle.Flat;
+            eight.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            eight.ForeColor = Color.WhiteSmoke;
+            eight.Location = new Point(93, 191);
+            eight.Name = "eight";
+            eight.Size = new Size(75, 60);
+            eight.TabIndex = 11;
+            eight.Text = "8";
+            eight.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // nine
             // 
-            button12.BackColor = Color.FromArgb(65, 65, 65);
-            button12.FlatAppearance.BorderSize = 0;
-            button12.FlatStyle = FlatStyle.Flat;
-            button12.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button12.ForeColor = Color.WhiteSmoke;
-            button12.Location = new Point(174, 191);
-            button12.Name = "button12";
-            button12.Size = new Size(75, 60);
-            button12.TabIndex = 12;
-            button12.Text = "9";
-            button12.UseVisualStyleBackColor = false;
+            nine.BackColor = Color.FromArgb(65, 65, 65);
+            nine.FlatAppearance.BorderSize = 0;
+            nine.FlatStyle = FlatStyle.Flat;
+            nine.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            nine.ForeColor = Color.WhiteSmoke;
+            nine.Location = new Point(174, 191);
+            nine.Name = "nine";
+            nine.Size = new Size(75, 60);
+            nine.TabIndex = 12;
+            nine.Text = "9";
+            nine.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // multiply
             // 
-            button13.BackColor = Color.FromArgb(55, 55, 55);
-            button13.FlatAppearance.BorderSize = 0;
-            button13.FlatStyle = FlatStyle.Flat;
-            button13.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button13.ForeColor = Color.WhiteSmoke;
-            button13.Location = new Point(255, 191);
-            button13.Name = "button13";
-            button13.Size = new Size(75, 60);
-            button13.TabIndex = 16;
-            button13.Text = "×";
-            button13.UseVisualStyleBackColor = false;
+            multiply.BackColor = Color.FromArgb(55, 55, 55);
+            multiply.FlatAppearance.BorderSize = 0;
+            multiply.FlatStyle = FlatStyle.Flat;
+            multiply.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            multiply.ForeColor = Color.WhiteSmoke;
+            multiply.Location = new Point(255, 191);
+            multiply.Name = "multiply";
+            multiply.Size = new Size(75, 60);
+            multiply.TabIndex = 16;
+            multiply.Text = "×";
+            multiply.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // minus
             // 
-            button14.BackColor = Color.FromArgb(55, 55, 55);
-            button14.FlatAppearance.BorderSize = 0;
-            button14.FlatStyle = FlatStyle.Flat;
-            button14.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button14.ForeColor = Color.WhiteSmoke;
-            button14.Location = new Point(255, 257);
-            button14.Name = "button14";
-            button14.Size = new Size(75, 60);
-            button14.TabIndex = 15;
-            button14.Text = "-";
-            button14.UseVisualStyleBackColor = false;
+            minus.BackColor = Color.FromArgb(55, 55, 55);
+            minus.FlatAppearance.BorderSize = 0;
+            minus.FlatStyle = FlatStyle.Flat;
+            minus.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            minus.ForeColor = Color.WhiteSmoke;
+            minus.Location = new Point(255, 257);
+            minus.Name = "minus";
+            minus.Size = new Size(75, 60);
+            minus.TabIndex = 15;
+            minus.Text = "-";
+            minus.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // plus
             // 
-            button15.BackColor = Color.FromArgb(55, 55, 55);
-            button15.FlatAppearance.BorderSize = 0;
-            button15.FlatStyle = FlatStyle.Flat;
-            button15.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button15.ForeColor = Color.WhiteSmoke;
-            button15.Location = new Point(255, 323);
-            button15.Name = "button15";
-            button15.Size = new Size(75, 60);
-            button15.TabIndex = 14;
-            button15.Text = "+";
-            button15.UseVisualStyleBackColor = false;
+            plus.BackColor = Color.FromArgb(55, 55, 55);
+            plus.FlatAppearance.BorderSize = 0;
+            plus.FlatStyle = FlatStyle.Flat;
+            plus.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            plus.ForeColor = Color.WhiteSmoke;
+            plus.Location = new Point(255, 323);
+            plus.Name = "plus";
+            plus.Size = new Size(75, 60);
+            plus.TabIndex = 14;
+            plus.Text = "+";
+            plus.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // equally
             // 
-            button16.BackColor = Color.FromArgb(0, 100, 255);
-            button16.FlatAppearance.BorderSize = 0;
-            button16.FlatStyle = FlatStyle.Flat;
-            button16.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button16.ForeColor = Color.WhiteSmoke;
-            button16.Location = new Point(255, 389);
-            button16.Name = "button16";
-            button16.Size = new Size(75, 60);
-            button16.TabIndex = 13;
-            button16.Text = "=";
-            button16.UseVisualStyleBackColor = false;
+            equally.BackColor = Color.FromArgb(0, 100, 255);
+            equally.FlatAppearance.BorderSize = 0;
+            equally.FlatStyle = FlatStyle.Flat;
+            equally.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            equally.ForeColor = Color.WhiteSmoke;
+            equally.Location = new Point(255, 389);
+            equally.Name = "equally";
+            equally.Size = new Size(75, 60);
+            equally.TabIndex = 13;
+            equally.Text = "=";
+            equally.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // share
             // 
-            button17.BackColor = Color.FromArgb(55, 55, 55);
-            button17.FlatAppearance.BorderSize = 0;
-            button17.FlatStyle = FlatStyle.Flat;
-            button17.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button17.ForeColor = Color.WhiteSmoke;
-            button17.Location = new Point(255, 125);
-            button17.Name = "button17";
-            button17.Size = new Size(75, 60);
-            button17.TabIndex = 20;
-            button17.Text = "÷";
-            button17.UseVisualStyleBackColor = false;
+            share.BackColor = Color.FromArgb(55, 55, 55);
+            share.FlatAppearance.BorderSize = 0;
+            share.FlatStyle = FlatStyle.Flat;
+            share.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            share.ForeColor = Color.WhiteSmoke;
+            share.Location = new Point(255, 125);
+            share.Name = "share";
+            share.Size = new Size(75, 60);
+            share.TabIndex = 20;
+            share.Text = "÷";
+            share.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // degree
             // 
-            button18.BackColor = Color.FromArgb(55, 55, 55);
-            button18.FlatAppearance.BorderSize = 0;
-            button18.FlatStyle = FlatStyle.Flat;
-            button18.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button18.ForeColor = Color.WhiteSmoke;
-            button18.Location = new Point(174, 125);
-            button18.Name = "button18";
-            button18.Size = new Size(75, 60);
-            button18.TabIndex = 19;
-            button18.Text = "x²";
-            button18.UseVisualStyleBackColor = false;
+            degree.BackColor = Color.FromArgb(55, 55, 55);
+            degree.FlatAppearance.BorderSize = 0;
+            degree.FlatStyle = FlatStyle.Flat;
+            degree.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            degree.ForeColor = Color.WhiteSmoke;
+            degree.Location = new Point(174, 125);
+            degree.Name = "degree";
+            degree.Size = new Size(75, 60);
+            degree.TabIndex = 19;
+            degree.Text = "x²";
+            degree.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // eraseEverything
             // 
-            button19.BackColor = Color.FromArgb(55, 55, 55);
-            button19.FlatAppearance.BorderSize = 0;
-            button19.FlatStyle = FlatStyle.Flat;
-            button19.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button19.ForeColor = Color.WhiteSmoke;
-            button19.Location = new Point(93, 125);
-            button19.Name = "button19";
-            button19.Size = new Size(75, 60);
-            button19.TabIndex = 18;
-            button19.Text = "C";
-            button19.UseVisualStyleBackColor = false;
+            eraseEverything.BackColor = Color.FromArgb(55, 55, 55);
+            eraseEverything.FlatAppearance.BorderSize = 0;
+            eraseEverything.FlatStyle = FlatStyle.Flat;
+            eraseEverything.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            eraseEverything.ForeColor = Color.WhiteSmoke;
+            eraseEverything.Location = new Point(93, 125);
+            eraseEverything.Name = "eraseEverything";
+            eraseEverything.Size = new Size(75, 60);
+            eraseEverything.TabIndex = 18;
+            eraseEverything.Text = "C";
+            eraseEverything.UseVisualStyleBackColor = false;
             // 
-            // button20
+            // eraseLast
             // 
-            button20.BackColor = Color.FromArgb(55, 55, 55);
-            button20.FlatAppearance.BorderSize = 0;
-            button20.FlatStyle = FlatStyle.Flat;
-            button20.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            button20.ForeColor = Color.WhiteSmoke;
-            button20.Location = new Point(12, 125);
-            button20.Name = "button20";
-            button20.Size = new Size(75, 60);
-            button20.TabIndex = 17;
-            button20.Text = "❮";
-            button20.UseVisualStyleBackColor = false;
+            eraseLast.BackColor = Color.FromArgb(55, 55, 55);
+            eraseLast.FlatAppearance.BorderSize = 0;
+            eraseLast.FlatStyle = FlatStyle.Flat;
+            eraseLast.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            eraseLast.ForeColor = Color.WhiteSmoke;
+            eraseLast.Location = new Point(12, 125);
+            eraseLast.Name = "eraseLast";
+            eraseLast.Size = new Size(75, 60);
+            eraseLast.TabIndex = 17;
+            eraseLast.Text = "❮";
+            eraseLast.UseVisualStyleBackColor = false;
             // 
             // CalculatorForm
             // 
@@ -336,51 +336,51 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(35, 35, 35);
             ClientSize = new Size(341, 461);
-            Controls.Add(button17);
-            Controls.Add(button18);
-            Controls.Add(button19);
-            Controls.Add(button20);
-            Controls.Add(button13);
-            Controls.Add(button14);
-            Controls.Add(button15);
-            Controls.Add(button16);
-            Controls.Add(button12);
-            Controls.Add(button11);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(share);
+            Controls.Add(degree);
+            Controls.Add(eraseEverything);
+            Controls.Add(eraseLast);
+            Controls.Add(multiply);
+            Controls.Add(minus);
+            Controls.Add(plus);
+            Controls.Add(equally);
+            Controls.Add(nine);
+            Controls.Add(eight);
+            Controls.Add(seven);
+            Controls.Add(six);
+            Controls.Add(five);
+            Controls.Add(four);
+            Controls.Add(three);
+            Controls.Add(two);
+            Controls.Add(one);
+            Controls.Add(separator);
+            Controls.Add(zero);
+            Controls.Add(changeSign);
             Name = "CalculatorForm";
             Text = "Calculator";
             ResumeLayout(false);
         }
 
         #endregion
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
+        private Button changeSign;
+        private Button zero;
+        private Button separator;
+        private Button one;
+        private Button two;
+        private Button three;
+        private Button four;
+        private Button five;
+        private Button six;
+        private Button seven;
+        private Button eight;
+        private Button nine;
+        private Button multiply;
+        private Button minus;
+        private Button plus;
+        private Button equally;
+        private Button share;
+        private Button degree;
+        private Button eraseEverything;
+        private Button eraseLast;
     }
 }
