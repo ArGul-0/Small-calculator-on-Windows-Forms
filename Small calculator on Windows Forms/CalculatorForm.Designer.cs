@@ -48,6 +48,8 @@
             degree = new Button();
             eraseEverything = new Button();
             eraseLast = new Button();
+            output = new TextBox();
+            info = new Label();
             SuspendLayout();
             // 
             // changeSign
@@ -63,6 +65,7 @@
             changeSign.TabIndex = 1;
             changeSign.Text = "+/-";
             changeSign.UseVisualStyleBackColor = false;
+            changeSign.Click += changeSign_Click;
             // 
             // zero
             // 
@@ -77,6 +80,7 @@
             zero.TabIndex = 2;
             zero.Text = "0";
             zero.UseVisualStyleBackColor = false;
+            zero.Click += zero_Click;
             // 
             // separator
             // 
@@ -91,6 +95,7 @@
             separator.TabIndex = 3;
             separator.Text = ",";
             separator.UseVisualStyleBackColor = false;
+            separator.Click += separator_Click;
             // 
             // one
             // 
@@ -105,6 +110,7 @@
             one.TabIndex = 4;
             one.Text = "1";
             one.UseVisualStyleBackColor = false;
+            one.Click += one_Click;
             // 
             // two
             // 
@@ -119,6 +125,7 @@
             two.TabIndex = 5;
             two.Text = "2";
             two.UseVisualStyleBackColor = false;
+            two.Click += two_Click;
             // 
             // three
             // 
@@ -133,6 +140,7 @@
             three.TabIndex = 6;
             three.Text = "3";
             three.UseVisualStyleBackColor = false;
+            three.Click += three_Click;
             // 
             // four
             // 
@@ -147,6 +155,7 @@
             four.TabIndex = 7;
             four.Text = "4";
             four.UseVisualStyleBackColor = false;
+            four.Click += four_Click;
             // 
             // five
             // 
@@ -161,6 +170,7 @@
             five.TabIndex = 8;
             five.Text = "5";
             five.UseVisualStyleBackColor = false;
+            five.Click += five_Click;
             // 
             // six
             // 
@@ -175,6 +185,7 @@
             six.TabIndex = 9;
             six.Text = "6";
             six.UseVisualStyleBackColor = false;
+            six.Click += six_Click;
             // 
             // seven
             // 
@@ -189,6 +200,7 @@
             seven.TabIndex = 10;
             seven.Text = "7";
             seven.UseVisualStyleBackColor = false;
+            seven.Click += seven_Click;
             // 
             // eight
             // 
@@ -203,6 +215,7 @@
             eight.TabIndex = 11;
             eight.Text = "8";
             eight.UseVisualStyleBackColor = false;
+            eight.Click += eight_Click;
             // 
             // nine
             // 
@@ -217,6 +230,7 @@
             nine.TabIndex = 12;
             nine.Text = "9";
             nine.UseVisualStyleBackColor = false;
+            nine.Click += nine_Click;
             // 
             // multiply
             // 
@@ -231,6 +245,7 @@
             multiply.TabIndex = 16;
             multiply.Text = "×";
             multiply.UseVisualStyleBackColor = false;
+            multiply.Click += multiply_Click;
             // 
             // minus
             // 
@@ -245,6 +260,7 @@
             minus.TabIndex = 15;
             minus.Text = "-";
             minus.UseVisualStyleBackColor = false;
+            minus.Click += minus_Click;
             // 
             // plus
             // 
@@ -259,6 +275,7 @@
             plus.TabIndex = 14;
             plus.Text = "+";
             plus.UseVisualStyleBackColor = false;
+            plus.Click += plus_Click;
             // 
             // equally
             // 
@@ -273,6 +290,7 @@
             equally.TabIndex = 13;
             equally.Text = "=";
             equally.UseVisualStyleBackColor = false;
+            equally.Click += equally_Click;
             // 
             // share
             // 
@@ -287,6 +305,7 @@
             share.TabIndex = 20;
             share.Text = "÷";
             share.UseVisualStyleBackColor = false;
+            share.Click += share_Click;
             // 
             // degree
             // 
@@ -301,6 +320,7 @@
             degree.TabIndex = 19;
             degree.Text = "x²";
             degree.UseVisualStyleBackColor = false;
+            degree.Click += degree_Click;
             // 
             // eraseEverything
             // 
@@ -315,6 +335,7 @@
             eraseEverything.TabIndex = 18;
             eraseEverything.Text = "C";
             eraseEverything.UseVisualStyleBackColor = false;
+            eraseEverything.Click += eraseEverything_Click;
             // 
             // eraseLast
             // 
@@ -329,6 +350,29 @@
             eraseLast.TabIndex = 17;
             eraseLast.Text = "❮";
             eraseLast.UseVisualStyleBackColor = false;
+            eraseLast.Click += eraseLast_Click;
+            // 
+            // output
+            // 
+            output.BackColor = Color.FromArgb(35, 35, 35);
+            output.BorderStyle = BorderStyle.FixedSingle;
+            output.Font = new Font("Segoe UI Semibold", 30.75F, FontStyle.Bold);
+            output.ForeColor = Color.WhiteSmoke;
+            output.Location = new Point(12, 12);
+            output.Name = "output";
+            output.Size = new Size(318, 62);
+            output.TabIndex = 21;
+            output.TextChanged += output_TextChanged;
+            // 
+            // info
+            // 
+            info.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            info.ForeColor = Color.DimGray;
+            info.Location = new Point(12, 77);
+            info.Name = "info";
+            info.Size = new Size(317, 45);
+            info.TabIndex = 22;
+            info.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // CalculatorForm
             // 
@@ -336,6 +380,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(35, 35, 35);
             ClientSize = new Size(341, 461);
+            Controls.Add(info);
+            Controls.Add(output);
             Controls.Add(share);
             Controls.Add(degree);
             Controls.Add(eraseEverything);
@@ -356,9 +402,12 @@
             Controls.Add(separator);
             Controls.Add(zero);
             Controls.Add(changeSign);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "CalculatorForm";
             Text = "Calculator";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -382,5 +431,7 @@
         private Button degree;
         private Button eraseEverything;
         private Button eraseLast;
+        private TextBox output;
+        private Label info;
     }
 }
