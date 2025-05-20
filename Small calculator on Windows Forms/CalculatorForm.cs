@@ -25,6 +25,12 @@ namespace Small_calculator_on_Windows_Forms
             }
             catch
             {
+                if(output.Text.Contains(","))
+                {
+                    info.Text = "Fraction sign: \".\"";
+                    output.Text = string.Empty;
+                    return;
+                }
                 output.Text = string.Empty;
                 info.Text = "Invalid expression";
             }
@@ -67,7 +73,11 @@ namespace Small_calculator_on_Windows_Forms
 
         private void changeSign_Click(object sender, EventArgs e)
         {
-            //Изменение знака числа
+            //Изменение знака
+            for (int i = output.Text.Length; i < output.Text.Length; i++)
+            {
+                //допилить
+            }
         }
 
         private void separator_Click(object sender, EventArgs e)

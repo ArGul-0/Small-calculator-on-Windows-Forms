@@ -61,7 +61,7 @@
             changeSign.ForeColor = Color.WhiteSmoke;
             changeSign.Location = new Point(11, 389);
             changeSign.Name = "changeSign";
-            changeSign.Size = new Size(75, 60);
+            changeSign.Size = new Size(75, 55);
             changeSign.TabIndex = 1;
             changeSign.Text = "+/-";
             changeSign.UseVisualStyleBackColor = false;
@@ -76,7 +76,7 @@
             zero.ForeColor = Color.WhiteSmoke;
             zero.Location = new Point(93, 389);
             zero.Name = "zero";
-            zero.Size = new Size(75, 60);
+            zero.Size = new Size(75, 55);
             zero.TabIndex = 2;
             zero.Text = "0";
             zero.UseVisualStyleBackColor = false;
@@ -91,9 +91,9 @@
             separator.ForeColor = Color.WhiteSmoke;
             separator.Location = new Point(174, 389);
             separator.Name = "separator";
-            separator.Size = new Size(75, 60);
+            separator.Size = new Size(75, 55);
             separator.TabIndex = 3;
-            separator.Text = ",";
+            separator.Text = ".";
             separator.UseVisualStyleBackColor = false;
             separator.Click += separator_Click;
             // 
@@ -106,7 +106,7 @@
             one.ForeColor = Color.WhiteSmoke;
             one.Location = new Point(12, 323);
             one.Name = "one";
-            one.Size = new Size(75, 60);
+            one.Size = new Size(75, 55);
             one.TabIndex = 4;
             one.Text = "1";
             one.UseVisualStyleBackColor = false;
@@ -121,7 +121,7 @@
             two.ForeColor = Color.WhiteSmoke;
             two.Location = new Point(93, 323);
             two.Name = "two";
-            two.Size = new Size(75, 60);
+            two.Size = new Size(75, 55);
             two.TabIndex = 5;
             two.Text = "2";
             two.UseVisualStyleBackColor = false;
@@ -136,7 +136,7 @@
             three.ForeColor = Color.WhiteSmoke;
             three.Location = new Point(174, 323);
             three.Name = "three";
-            three.Size = new Size(75, 60);
+            three.Size = new Size(75, 55);
             three.TabIndex = 6;
             three.Text = "3";
             three.UseVisualStyleBackColor = false;
@@ -151,7 +151,7 @@
             four.ForeColor = Color.WhiteSmoke;
             four.Location = new Point(12, 257);
             four.Name = "four";
-            four.Size = new Size(75, 60);
+            four.Size = new Size(75, 55);
             four.TabIndex = 7;
             four.Text = "4";
             four.UseVisualStyleBackColor = false;
@@ -166,7 +166,7 @@
             five.ForeColor = Color.WhiteSmoke;
             five.Location = new Point(93, 257);
             five.Name = "five";
-            five.Size = new Size(75, 60);
+            five.Size = new Size(75, 55);
             five.TabIndex = 8;
             five.Text = "5";
             five.UseVisualStyleBackColor = false;
@@ -181,7 +181,7 @@
             six.ForeColor = Color.WhiteSmoke;
             six.Location = new Point(174, 257);
             six.Name = "six";
-            six.Size = new Size(75, 60);
+            six.Size = new Size(75, 55);
             six.TabIndex = 9;
             six.Text = "6";
             six.UseVisualStyleBackColor = false;
@@ -196,7 +196,7 @@
             seven.ForeColor = Color.WhiteSmoke;
             seven.Location = new Point(12, 191);
             seven.Name = "seven";
-            seven.Size = new Size(75, 60);
+            seven.Size = new Size(75, 55);
             seven.TabIndex = 10;
             seven.Text = "7";
             seven.UseVisualStyleBackColor = false;
@@ -211,7 +211,7 @@
             eight.ForeColor = Color.WhiteSmoke;
             eight.Location = new Point(93, 191);
             eight.Name = "eight";
-            eight.Size = new Size(75, 60);
+            eight.Size = new Size(75, 55);
             eight.TabIndex = 11;
             eight.Text = "8";
             eight.UseVisualStyleBackColor = false;
@@ -226,7 +226,7 @@
             nine.ForeColor = Color.WhiteSmoke;
             nine.Location = new Point(174, 191);
             nine.Name = "nine";
-            nine.Size = new Size(75, 60);
+            nine.Size = new Size(75, 55);
             nine.TabIndex = 12;
             nine.Text = "9";
             nine.UseVisualStyleBackColor = false;
@@ -241,7 +241,7 @@
             multiply.ForeColor = Color.WhiteSmoke;
             multiply.Location = new Point(255, 191);
             multiply.Name = "multiply";
-            multiply.Size = new Size(75, 60);
+            multiply.Size = new Size(75, 55);
             multiply.TabIndex = 16;
             multiply.Text = "×";
             multiply.UseVisualStyleBackColor = false;
@@ -256,7 +256,7 @@
             minus.ForeColor = Color.WhiteSmoke;
             minus.Location = new Point(255, 257);
             minus.Name = "minus";
-            minus.Size = new Size(75, 60);
+            minus.Size = new Size(75, 55);
             minus.TabIndex = 15;
             minus.Text = "-";
             minus.UseVisualStyleBackColor = false;
@@ -271,7 +271,7 @@
             plus.ForeColor = Color.WhiteSmoke;
             plus.Location = new Point(255, 323);
             plus.Name = "plus";
-            plus.Size = new Size(75, 60);
+            plus.Size = new Size(75, 55);
             plus.TabIndex = 14;
             plus.Text = "+";
             plus.UseVisualStyleBackColor = false;
@@ -286,7 +286,7 @@
             equally.ForeColor = Color.WhiteSmoke;
             equally.Location = new Point(255, 389);
             equally.Name = "equally";
-            equally.Size = new Size(75, 60);
+            equally.Size = new Size(75, 55);
             equally.TabIndex = 13;
             equally.Text = "=";
             equally.UseVisualStyleBackColor = false;
@@ -301,7 +301,7 @@
             share.ForeColor = Color.WhiteSmoke;
             share.Location = new Point(255, 125);
             share.Name = "share";
-            share.Size = new Size(75, 60);
+            share.Size = new Size(75, 55);
             share.TabIndex = 20;
             share.Text = "÷";
             share.UseVisualStyleBackColor = false;
@@ -316,7 +316,7 @@
             degree.ForeColor = Color.WhiteSmoke;
             degree.Location = new Point(174, 125);
             degree.Name = "degree";
-            degree.Size = new Size(75, 60);
+            degree.Size = new Size(75, 55);
             degree.TabIndex = 19;
             degree.Text = "x²";
             degree.UseVisualStyleBackColor = false;
@@ -331,7 +331,7 @@
             eraseEverything.ForeColor = Color.WhiteSmoke;
             eraseEverything.Location = new Point(93, 125);
             eraseEverything.Name = "eraseEverything";
-            eraseEverything.Size = new Size(75, 60);
+            eraseEverything.Size = new Size(75, 55);
             eraseEverything.TabIndex = 18;
             eraseEverything.Text = "C";
             eraseEverything.UseVisualStyleBackColor = false;
@@ -346,7 +346,7 @@
             eraseLast.ForeColor = Color.WhiteSmoke;
             eraseLast.Location = new Point(12, 125);
             eraseLast.Name = "eraseLast";
-            eraseLast.Size = new Size(75, 60);
+            eraseLast.Size = new Size(75, 55);
             eraseLast.TabIndex = 17;
             eraseLast.Text = "❮";
             eraseLast.UseVisualStyleBackColor = false;
