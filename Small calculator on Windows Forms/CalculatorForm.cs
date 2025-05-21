@@ -71,12 +71,18 @@ namespace Small_calculator_on_Windows_Forms
             //Возведение в степень
         }
 
-        private void changeSign_Click(object sender, EventArgs e)
+        private bool staplesOpen = false;
+        private void staples_Click(object sender, EventArgs e)
         {
-            //Изменение знака
-            for (int i = output.Text.Length; i < output.Text.Length; i++)
+            if (staplesOpen == false)
             {
-                //допилить
+                output.Text = output.Text + "(";
+                staplesOpen = true;
+            }
+            else
+            {
+                output.Text = output.Text + ")";
+                staplesOpen = false;
             }
         }
 

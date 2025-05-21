@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            changeSign = new Button();
+            staples = new Button();
             zero = new Button();
             separator = new Button();
             one = new Button();
@@ -52,20 +52,20 @@
             info = new Label();
             SuspendLayout();
             // 
-            // changeSign
+            // staples
             // 
-            changeSign.BackColor = Color.FromArgb(65, 65, 65);
-            changeSign.FlatAppearance.BorderSize = 0;
-            changeSign.FlatStyle = FlatStyle.Flat;
-            changeSign.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            changeSign.ForeColor = Color.WhiteSmoke;
-            changeSign.Location = new Point(11, 389);
-            changeSign.Name = "changeSign";
-            changeSign.Size = new Size(75, 55);
-            changeSign.TabIndex = 1;
-            changeSign.Text = "+/-";
-            changeSign.UseVisualStyleBackColor = false;
-            changeSign.Click += changeSign_Click;
+            staples.BackColor = Color.FromArgb(65, 65, 65);
+            staples.FlatAppearance.BorderSize = 0;
+            staples.FlatStyle = FlatStyle.Flat;
+            staples.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            staples.ForeColor = Color.WhiteSmoke;
+            staples.Location = new Point(11, 389);
+            staples.Name = "staples";
+            staples.Size = new Size(75, 55);
+            staples.TabIndex = 1;
+            staples.Text = "( )";
+            staples.UseVisualStyleBackColor = false;
+            staples.Click += staples_Click;
             // 
             // zero
             // 
@@ -401,7 +401,7 @@
             Controls.Add(one);
             Controls.Add(separator);
             Controls.Add(zero);
-            Controls.Add(changeSign);
+            Controls.Add(staples);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "CalculatorForm";
@@ -411,7 +411,7 @@
         }
 
         #endregion
-        private Button changeSign;
+        private Button staples;
         private Button zero;
         private Button separator;
         private Button one;
