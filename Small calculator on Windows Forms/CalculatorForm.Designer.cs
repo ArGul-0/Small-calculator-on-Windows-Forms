@@ -45,7 +45,7 @@
             plus = new Button();
             equally = new Button();
             share = new Button();
-            degree = new Button();
+            eraseFullLastNum = new Button();
             eraseEverything = new Button();
             eraseLast = new Button();
             output = new TextBox();
@@ -307,20 +307,20 @@
             share.UseVisualStyleBackColor = false;
             share.Click += share_Click;
             // 
-            // degree
+            // eraseFullLastNum
             // 
-            degree.BackColor = Color.FromArgb(55, 55, 55);
-            degree.FlatAppearance.BorderSize = 0;
-            degree.FlatStyle = FlatStyle.Flat;
-            degree.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
-            degree.ForeColor = Color.WhiteSmoke;
-            degree.Location = new Point(174, 125);
-            degree.Name = "degree";
-            degree.Size = new Size(75, 55);
-            degree.TabIndex = 19;
-            degree.Text = "x²";
-            degree.UseVisualStyleBackColor = false;
-            degree.Click += degree_Click;
+            eraseFullLastNum.BackColor = Color.FromArgb(55, 55, 55);
+            eraseFullLastNum.FlatAppearance.BorderSize = 0;
+            eraseFullLastNum.FlatStyle = FlatStyle.Flat;
+            eraseFullLastNum.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
+            eraseFullLastNum.ForeColor = Color.WhiteSmoke;
+            eraseFullLastNum.Location = new Point(174, 125);
+            eraseFullLastNum.Name = "eraseFullLastNum";
+            eraseFullLastNum.Size = new Size(75, 55);
+            eraseFullLastNum.TabIndex = 19;
+            eraseFullLastNum.Text = "CE";
+            eraseFullLastNum.UseVisualStyleBackColor = false;
+            eraseFullLastNum.Click += eraseFullLastNum_Click;
             // 
             // eraseEverything
             // 
@@ -362,7 +362,6 @@
             output.Name = "output";
             output.Size = new Size(318, 62);
             output.TabIndex = 21;
-            output.TextChanged += output_TextChanged;
             // 
             // info
             // 
@@ -383,7 +382,7 @@
             Controls.Add(info);
             Controls.Add(output);
             Controls.Add(share);
-            Controls.Add(degree);
+            Controls.Add(eraseFullLastNum);
             Controls.Add(eraseEverything);
             Controls.Add(eraseLast);
             Controls.Add(multiply);
@@ -428,7 +427,7 @@
         private Button plus;
         private Button equally;
         private Button share;
-        private Button degree;
+        private Button eraseFullLastNum;
         private Button eraseEverything;
         private Button eraseLast;
         private TextBox output;

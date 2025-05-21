@@ -11,17 +11,14 @@ namespace Small_calculator_on_Windows_Forms
             Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
             InitializeComponent();
         }
-        private void output_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void equally_Click(object sender, EventArgs e)
         {
             try
             {
                 info.Text = string.Empty;
-                output.Text = new DataTable().Compute(output.Text, null).ToString();
+                var result = new DataTable().Compute(output.Text, null).ToString();
+                output.Text = result;
             }
             catch
             {
@@ -43,7 +40,14 @@ namespace Small_calculator_on_Windows_Forms
 
         private void eraseLast_Click(object sender, EventArgs e)
         {
-            output.Text = output.Text.Remove(output.Text.Length - 1);
+            try
+            {
+                output.Text = output.Text.Remove(output.Text.Length - 1);
+            }
+            catch
+            {
+                output.Text = string.Empty;
+            }
         }
 
         private void plus_Click(object sender, EventArgs e)
@@ -66,9 +70,27 @@ namespace Small_calculator_on_Windows_Forms
             output.Text = output.Text + "/";
         }
 
-        private void degree_Click(object sender, EventArgs e)
+        private void eraseFullLastNum_Click(object sender, EventArgs e)
         {
-            //Возведение в степень
+            try
+            {
+                for (int i = output.Text.Length; i <= output.Text.Length; i--)
+                {
+                    char c = output.Text[i - 1];
+                    if (c == '+' || c == '-' || c == '*' || c == '/')
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        output.Text = output.Text.Remove(output.Text.Length - 1);
+                    }
+                }
+            }
+            catch
+            {
+                output.Text = string.Empty;
+            }
         }
 
         private bool staplesOpen = false;
