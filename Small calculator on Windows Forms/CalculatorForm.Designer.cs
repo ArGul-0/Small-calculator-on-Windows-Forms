@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalculatorForm));
             staples = new Button();
             zero = new Button();
             separator = new Button();
@@ -402,6 +403,7 @@
             Controls.Add(zero);
             Controls.Add(staples);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "CalculatorForm";
             Text = "Calculator";
