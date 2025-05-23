@@ -9,8 +9,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
     <ApplicationIcon>Images\Calculator logo.ico</ApplicationIcon>
-
+	  
 	  <PublishSingleFile>true</PublishSingleFile>
+	  <SelfContained>false</SelfContained>
+	  <!-- не встраиваем рантайм -->
 
   </PropertyGroup>
 
