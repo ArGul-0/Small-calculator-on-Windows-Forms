@@ -9,6 +9,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
     <ApplicationIcon>Images\Calculator logo.ico</ApplicationIcon>
+
+	  <PublishSingleFile>true</PublishSingleFile>
+	  <!-- опционально: вшить runtime, чтобы на целевой машине не требовался .NET -->
+	  <SelfContained>true</SelfContained>
+	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
   </PropertyGroup>
 
   <ItemGroup>
